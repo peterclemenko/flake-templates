@@ -1,17 +1,18 @@
-# Nixvital - Flake Templates
+# peterclemenko - Flake Templates
 
 This repository contains a collection of Nix flake templates that you can use as starting points for your own projects. The templates are defined in the templates attribute set of the flake's outputs.
+this is based off the nixvital ones, but expanded for personal projects
 
 To use a template, you can use the `nix flake init` command and specify the template with the `--template` flag:
 
 ```
-nix flake init --template "github:nixvital/flake-templates#torch-basics"
+nix flake init --template "github:peterclemenko/flake-templates#torch-basics"
 ```
 
 Alternatively, you can use the `nix flake new` command to create a new flake project in a new directory:
 
 ```
-nix flake new --template "github:nixvital/flake-templates#torch-basics" my-project
+nix flake new --template "github:peterclemenko/flake-templates#torch-basics" my-project
 ```
 
 The available templates in this repository are:
